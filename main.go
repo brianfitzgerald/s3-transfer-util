@@ -16,8 +16,8 @@ func main() {
 	sourceBucket := flag.String("source-bucket", "", "bucket to copy")
 	destBucket := flag.String("dest-bucket", "", "bucket to copy to")
 
-	sourceProfile := flag.String("source-creds", "", "creds for copying from the source bucket")
-	destProfile := flag.String("source-creds", "", "creds for copying to the destination bucket")
+	sourceProfile := flag.String("source-profile", "", "creds for copying from the source bucket")
+	destProfile := flag.String("dest-profile", "", "creds for copying to the destination bucket")
 
 	if *sourceBucket == "" || *destBucket == "" {
 		panic("Please specify source and destination buckets")
