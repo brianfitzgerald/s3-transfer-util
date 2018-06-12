@@ -4,7 +4,7 @@
 
 `./s3transferutil source-bucket=s3://devbucket dest-bucket=s3://prodbucket source-profile=devprofile dest-profile=prodprofile`
 
-Replace the bucketn and profile values.
+Replace the bucket and profile values.
 
 ## Go Setup (for contributing)
 
